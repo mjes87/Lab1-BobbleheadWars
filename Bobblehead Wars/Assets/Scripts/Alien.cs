@@ -20,14 +20,11 @@ public class Alien : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (target != null)
+        navigationTime += Time.deltaTime;
+        if (navigationTime > navigationUpdate)
         {
-            navigationTime += Time.deltaTime;
-            if (navigationTime > navigationUpdate)
-            {
-                agent.destination = target.position;
-                navigationTime = 0;
-            }
+            agent.destination = target.position;
+            navigationTime = 0;
         }
     }
 

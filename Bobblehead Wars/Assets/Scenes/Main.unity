@@ -306,7 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 229876126}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,7 +578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399620446}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -608,7 +608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 436636876}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,7 +851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678459290}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1059,7 +1059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030799216}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1362,7 +1362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200891640}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1433,7 +1433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245725139}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1463,7 +1463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1289927676}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1493,7 +1493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1433854950}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1593,7 +1593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721337937}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1875,7 +1875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012227634}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
