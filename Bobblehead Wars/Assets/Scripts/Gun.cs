@@ -7,6 +7,8 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform launchPosition;
 
+    private AudioSource audioSource;
+
     void fireBullet()
     {
         // 1 - Creates instance of bullet prefab
@@ -16,12 +18,14 @@ public class Gun : MonoBehaviour
         // 3 - Sets the speed and direction the bullet travels relative to the faced direction
         bullet.GetComponent<Rigidbody>().velocity =
         transform.parent.forward * 100;
+
+        audioSource.PlayOneShot(SoundManager.Instance.gunFire);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
